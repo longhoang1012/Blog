@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: white;
+    font-size: 19px;
+}
+.mainHome{
+    width: 80%;
+    margin: 0 auto;
+}
+.me{
+    height: 250px;
+    margin: 20px 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.myInfo{
+    display: inline-block;
+    text-align: center;
+}
+.contact{
+    font-size: small;
+}
+.imgAva{
+    width: 182px;
+    height: 240px;
+    border-radius: 100px;
+}
+.block{
+    display: block;
+    border-top: 2px #5c5c5c solid;
+    overflow: scroll;
+    height: 250px;
+}
+.block + .block{
+    margin-top: 1rem;
+}
+.nameBlock1{
+    background-image: linear-gradient(to right , #00e1ff , rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: larger;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+.nameBlock2{
+    background-image: linear-gradient(to right , #e5ff00 , rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: larger;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+.description{
+    margin: 2rem 2rem;
+    font-size: 20px;
+}
+.tech{
+    margin: 2rem 1rem 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.techLeft{
+    font-size: medium;
+}
+.techRight{
+    font-size: medium;
+}
+
+@media only screen and (max-width: 44.9375em){
+    .me{
+        flex-direction: column-reverse;
+        height: 400px;
+        margin: 30px 0 30px;
+    }
+    .myInfo{
+        font-size: medium;
+    }
+    .imgAva{
+        margin: 0 auto;
+    }
+    .tech{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 63.9375em) and (min-width: 45em){
+    .me{
+        flex-direction: column-reverse;
+        height: 380px;
+        margin: 30px 0 30px;
+    }
+    .myInfo{
+        font-size: medium;
+    }
+    .imgAva{
+        margin: 0 auto;
+    }
+}

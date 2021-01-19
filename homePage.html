@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleBlog.css">
+    <link rel="stylesheet" href="homeStyle.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="clearHeader"></div>
+    <header>
+        <div class="container">
+            <div class="logoWebsite">
+                <a href="homePage.html"><img src="img/logo.png" class="imgLogo"></a>
+            </div>
+            <div class="mySite">
+                <span>My Website</span>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="homePage.html">Home</a></li>
+                        <li><a href="projectPage.html">Project</a></li>
+                    </ul>  
+                </nav>
+            </div>
+            <label for="labelInput" class="navbarIcon">
+                <i class="fas fa-bars fa-2x"></i>
+            </label>
+            <input type="checkbox" class="navInput" id="labelInput">
+            <label for="labelInput" class="navOverplay"></label>
+
+            <nav class="navMobile">
+                <div class="navHead">
+                    <a href="homePage.html"><img src="img/logo.png" class="navImgLogo"/></a>
+                    <label for="labelInput"  class="navMobileClose">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </div>
+                <ul class="navMobileList">
+                    <li class="show"><a href="homePage.html" class="navMobileLink">Home</a></li>
+                    <li class="show"><a href="projectPage.html" class="navMobileLink">Project</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="mainHome">
+        <div class="me">
+            <div class="myInfo">
+                <h1>LÂM HOÀNG LONG</h1>
+                <span>DEVELOPER</span>
+                <div class="contact">
+                    <p>Birth: 10/12/2000</p>
+                    <p>Mail: longhoang101200@gmail.com</p>
+                    <p>Tel: 0335400163</p>
+                </div>
+            </div>
+            <img src="img/ava.jpg" class="imgAva">
+        </div>
+        <div class="block">
+            <div class="nameBlock1">ABOUT ME</div>
+            <div class="description">
+                <span>I love working and learning new front-end technologies. <br>
+                    I want to using all my skills in the best possible way for achieving the company's goals & mine. <br>
+                    I taught myself to code through online learning channels and online courses.
+                </span>
+            </div>
+        </div>
+        <div class="block">
+            <div class="nameBlock2">TECHNICAL SKILLS</div>
+            <div class="tech">
+                <div class="techLeft">
+                    <p>HTML/HTML5, CSS/ CSS3</p>
+                    <p>Scss, JavaScript</p>
+                    <p>SQL Server</p>
+                </div>
+                <div class="techRight">
+                    <p>Linux, Hosting, Domain</p>
+                    <p>Git, GitHub</p>
+                    <p>Photoshop</p>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="nameBlock2">EDUCATION</div>
+            <div class="description">
+                <h3>Ly Tu Trong College</h3>
+                <p>Computer Engineering Technology</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copyRight">
+            <p><i class="far fa-copyright"></i> Copyright 2020 <strong>Lâm Hoàng Long</strong></p>
+        </div>
+    </footer>
+    <button id="goTop" title="Go To Top">
+        <i class="fa fa-chevron-up"></i>
+    </button>
+    <script src="jsFile.js"></script>
+</body>
+</html>
