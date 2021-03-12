@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoang Long CV</title>
+    <link rel="stylesheet" href="styleBlog.css">
+    <link rel="stylesheet" href="projectstyle.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="clearHeader"></div>
+    <header>
+        <div class="container">
+            <div class="logoWebsite">
+                <a href="homePage.html"><img src="img/logo.png" class="imgLogo"></a>
+            </div>
+            <div class="mySite">
+                <span>My Website</span>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="homePage.html">Home</a></li>
+                        <li><a href="projectPage.html">Project</a></li>
+                    </ul>  
+                </nav>
+            </div>
+            <label for="labelInput" class="navbarIcon">
+                <i class="fas fa-bars fa-2x"></i>
+            </label>
+            <input type="checkbox" class="navInput" id="labelInput">
+            <label for="labelInput" class="navOverplay"></label>
+
+            <nav class="navMobile">
+                <div class="navHead">
+                    <a href="homePage.html"><img src="img/logo.png" class="navImgLogo"/></a>
+                    <label for="labelInput"  class="navMobileClose">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </div>
+                <ul class="navMobileList">
+                    <li class="show"><a href="homePage.html" class="navMobileLink">Home</a></li>
+                    <li class="show"><a href="projectPage.html" class="navMobileLink">Project</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <leftMain>
+            <div class="block">
+                <a href="miniProject/todo/todo.html">
+                    <div class="imgLink">
+                        <img class="imgCaption" src="img/todo.jpg">
+                    </div>
+                    <div class="info">
+                        <div class="title">
+                            <span>Todo App</span>
+                        </div>
+                        <div class="detail">
+                            <p>A list need to work.</p>
+                        </div>
+                    </div>  
+                </a>
+            </div>
+            <div class="block">
+                    <a href="miniProject/quiz/quiz.html">
+                    <div class="imgLink">
+                        <img class="imgCaption" src="img/quiz-icon-round.png">
+                    </div>
+                    <div class="info">
+                        <div class="title">
+                            <span>Quiz App</span>
+                        </div>
+                        <div class="detail">
+                            <p>A some quick question</p>
+                        </div>
+                        </div>
+                    </div>  
+                </a>
+            </div>
+            <div class="block">
+                <a href="miniProject/note/note.html">
+                    <div class="imgLink">
+                        <img class="imgCaption" src="img/noteimg.jpg">
+                    </div>
+                    <div class="info">
+                        <div class="title">
+                            <span>Note App</span>
+                        </div>
+                        <div class="detail">
+                            <p>A note.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="block">
+                <a href="miniProject/calculator/calculator.html">
+                    <div class="imgLink">
+                        <img class="imgCaption" src="img/calculator.jpg">
+                    </div>
+                    <div class="info">
+                        <div class="title">
+                            <span>Calculator</span>
+                        </div>
+                        <div class="detail">
+                            <p>A calculator online.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </leftMain>
+        <rightMain>
+            <form id="searchForm">
+                <fieldset>
+                    <input type="search" class="searchBox" id="searchBox" placeholder="Search here...">
+                    <button class="searchImg">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </fieldset>
+            </form>
+        </rightMain>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="copyRight">
+                <p><i class="far fa-copyright"></i> Copyright 2020 <strong>Lâm Hoàng Long</strong> </p>
+            </div>
+            <div class="contact">
+                <p>Follow me on Facebook: 
+                    <a href="https://www.facebook.com/Long.Hoang.1012/"><img src="img/fbIcon.png" class="iconFooter"></a> 
+                    or Github: <a href="https://github.com/longhoang1012"><img src="img/githubIcon.png" class="iconFooter"></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <button id="goTop" title="Go To Top">
+        <i class="fa fa-chevron-up"></i>
+    </button>
+    <script src="jsFile.js"></script>
+</body>
+</html>
